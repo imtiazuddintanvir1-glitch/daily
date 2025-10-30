@@ -1,0 +1,21 @@
+rules:
+  - keywords: ["happy", "楽しい", "うれしい", "good"]
+    feedback:
+      ja: "😊 すてきな気分ですね！そのポジティブな気持ちを明日にもつなげましょう。"
+      en: "😊 That’s wonderful! Keep that positive energy for tomorrow too."
+  - keywords: ["tired", "疲れ", "しんどい", "busy"]
+    feedback:
+      ja: "😌 おつかれさまです。少し休んで、自分をいたわってくださいね。"
+      en: "😌 You’ve worked hard. Remember to rest and care for yourself."
+  - keywords: ["sad", "かなしい", "lonely", "depressed"]
+    feedback:
+      ja: "💙 かなしい日もあります。気持ちを書き出すことはとても大切です。"
+      en: "💙 It’s okay to have sad days. Writing it out is already a big step."
+  - keywords: ["angry", "いらいら", "frustrated"]
+    feedback:
+      ja: "😤 イライラを感じるのは自然なことです。落ち着いたら、何ができるか考えてみましょう。"
+      en: "😤 It’s natural to feel angry. Once calm, think about small steps forward."
+default:
+  feedback:
+    ja: "🌱 書き出してみることで、気持ちが少し整理されますね。"
+    en: "🌱 Writing helps you organize your thoughts — well done!"
